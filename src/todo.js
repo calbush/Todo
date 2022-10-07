@@ -1,6 +1,8 @@
-export default class todo {
+export class todo {
     constructor(title) {
         this.title = title;
     }
-    testAlert() {console.log(this.title)}
+    get testAlert() {
+        return this.title
+    }
 }
